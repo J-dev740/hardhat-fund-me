@@ -1,0 +1,16 @@
+node_modules
+.env
+.encryptedKey.json
+coverage
+coverage.json
+typechain
+typechain-types
+deployments
+
+# Hardhat files
+cache
+artifacts
+typechain-types
+package-lock.json
+gas-report.txt
+
