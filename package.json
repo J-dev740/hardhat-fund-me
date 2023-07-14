@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npx hardhat test ",
-    "test:staging": "npx hardhat test --network sepolia"
+    "test:staging": "npx hardhat test --network sepolia",
+    "lint":"npm prettier --check .",
+    "lint:fix":"npm prettier --write ."
   },
   "author": "R Indrajith",
   "license": "ISC",
